@@ -4,7 +4,127 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 10px;
+}
+
+body{
+  font-family: Arial;
+  font-weight: normal;
+  color: #555;
+  line-height: 1.6;
+  font-size: 1.6rem;
+}
+
 nav{
-  background-color: #0D3B66;
-  height: 8rem;
+  background-color: #1d8ff9;
+  height: 18rem;
+}
+
+.latest-articles {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.latest-articles .article{
+  height: 110vh;
+}
+
+.latest-articles .article-1{
+  background-color: #FAF0CA;
+}
+
+.latest-articles .article-2{
+  background-color: #F95738;
+}
+
+.latest-articles .article-3{
+  background-color: #F6AE2D;
+}
+
+.latest-articles .article-4{
+  background-color: #af4913;
+}
+
+
+.signup {
+  background-color: #21ffce;
+  height: 70vh;
+}
+
+.latest-posts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+}
+
+.latest-posts .latest-post{
+  height: 70vh;
+}
+
+.latest-posts .latest-post-1{
+  background-color: #ffbea3;
+}
+
+.latest-posts .latest-post-2{
+  background-color: #eda1ab;
+}
+
+.latest-posts .latest-post-3{
+  background-color: #d698b9;
+}
+
+.signin {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.signin .sponsor {
+  background-color: coral;
+  height: 50rem;
+}
+
+.signin .sponsor {
+  background-color: coral
+}
+
+.signin .signin-form{
+  background-color: greenyellow;
+}
+
+
+
+.later-posts{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.later-posts .later-post{
+  height: 70vh;
+}
+
+.later-posts .later-post-1{
+  background-color: #22b9ca;
+}
+
+.later-posts .later-post-2{
+  background-color: #4be3ac;
+}
+
+.later-posts .later-post-3{
+  background-color: #B39C4D;
+
+}
+
+.later-posts .later-post-4{
+  background-color: #f7ff56;
+}
+
+.later-posts .later-post-5{
+  background-color: hotpink;
+  grid-column: 2 / -1;
+}
+
+.conference {
+  background-color: #CD5D67;
+  height: 120vh;
 }
