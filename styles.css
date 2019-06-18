@@ -8,69 +8,96 @@ html {
   font-size: 10px;
 }
 
-body{
+body {
   font-family: Arial;
-  font-weight: normal;
-  color: #555;
+  font-weight: bold;
+  color: #eee;
   line-height: 1.6;
   font-size: 1.6rem;
 }
 
-nav{
-  background-color: #C7D1D9;
+nav {
+  display: flex;
+  background-color: #c7d1d9;
   height: 18rem;
+  align-items: center;
 }
-
+nav ul {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  justify-content: space-evenly;
+}
+nav li {
+  display: grid;
+  width: 150px;
+  height: 150px;
+  background-color: grey;
+  place-items: center;
+}
+nav li a {
+  font-size: 22px;
+  text-decoration: none;
+  color: #eee;
+}
 .latest-articles {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  position: relative;
+}
+.latest-articles h1 {
+  width: 380px;
+  text-align: center;
+  background-color: gray;
+  position: absolute;
+  top: 5%;
+  left: 36%;
 }
 
-.latest-articles .article{
+.latest-articles .article {
   height: 110vh;
 }
 
-.latest-articles .article-1{
-  background-color: #FF775F;
+.latest-articles .article-1 {
+  background-color: #5a5a5a;
 }
 
-.latest-articles .article-2{
-  background-color: #FF9683;
+.latest-articles .article-2 {
+  background-color: #858585;
 }
 
-.latest-articles .article-3{
-  background-color: #FFB5A6;
+.latest-articles .article-3 {
+  background-color: #535353;
 }
 
-.latest-articles .article-4{
-  background-color: #FFD0C7;
+.latest-articles .article-4 {
+  background-color: #979797;
 }
-
 
 .signup {
-  background-color: #F27979;
+  background-color: #3f3f3f;
   height: 74vh;
 }
 
 .latest-posts {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
+  grid-template-columns: repeat(3, 1fr);
 }
 
-.latest-posts .latest-post{
+.latest-posts .latest-post {
   height: 90vh;
 }
 
-.latest-posts .latest-post-1{
-  background-color: #ffbea3;
+.latest-posts .latest-post-1 {
+  background-color: #c4c4c4;
 }
 
-.latest-posts .latest-post-2{
-  background-color: #eda1ab;
+.latest-posts .latest-post-2 {
+  background-color: #cecece;
 }
 
-.latest-posts .latest-post-3{
-  background-color: #d698b9;
+.latest-posts .latest-post-3 {
+  background-color: #e2e2e2;
 }
 
 .signin {
@@ -79,53 +106,48 @@ nav{
 }
 
 .signin .sponsor {
-  background-color: #A0AD5F;
+  background-color: #a1a1a1;
   height: 93vh;
 }
 
-.signin .signin-form{
-  background-color: #D9CE3D;
+.signin .signin-form {
+  background-color: #444444;
 }
 
-
-
-.later-posts{
+.later-posts {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
-.later-posts .later-post{
+.later-posts .later-post {
   height: 94vh;
 }
 
-.later-posts .later-post-1{
-  background-color: #64284A;
+.later-posts .later-post-1 {
+  background-color: #9c9c9c;
 }
 
-.later-posts .later-post-2{
-  background-color: #AF3C5E;
+.later-posts .later-post-2 {
+  background-color: #afafaf;
 }
 
-.later-posts .later-post-3{
-  background-color: #FA5072;
-
+.later-posts .later-post-3 {
+  background-color: #d4d4d4;
 }
 
-.later-posts .later-post-4{
-  background-color: #FFC2AA;
+.later-posts .later-post-4 {
+  background-color: #cfcfcf;
 }
 
-.later-posts .later-post-5{
-  background-color: #190036;
+.later-posts .later-post-5 {
+  background-color: #707070;
   grid-column: 2 / -1;
 }
 
-
 .conference {
-  background-color: #BF9075;
+  background-color: #3d3d3d;
   height: 120vh;
 }
-
 
 .community-links {
   display: grid;
@@ -134,7 +156,7 @@ nav{
 
 .person-of-week {
   height: 62vh;
-  background-color: #BF7463; 
+  background-color: #808080;
 }
 
 .shared-links {
@@ -142,70 +164,67 @@ nav{
   grid-template-columns: repeat(2, 1fr);
 }
 
-
 .shared-links .link {
   height: 50vh;
 }
 
 .shared-links .link-1 {
-  background-color: #00D3E6;
+  background-color: #6b6b6b;
 }
 
 .shared-links .link-2 {
-  background-color: #00B4CC;
+  background-color: #7e7e7e;
 }
 
 .shared-links .link-3 {
-  background-color: #0096B3;
+  background-color: #8b8b8b;
 }
 
 .shared-links .link-4 {
-  background-color: #007A99;
+  background-color: #b1b1b1;
 }
 
 .shared-links .link-5 {
-  background-color: #005E7C;
+  background-color: #747474;
 }
 
 .shared-links .link-6 {
-  background-color: #3c5167;
+  background-color: #c2c2c2;
 }
 
-.featured-book{
+.featured-book {
   height: 70vh;
-  background-color:  #FFAC8A;
+  background-color: #4b4b4b;
 }
-
 
 .curated-posts {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 105vh 115vh
+  grid-template-rows: 105vh 115vh;
 }
 
-.curated-posts .curated-post-1{
-  background-color: #FFE2DF
+.curated-posts .curated-post-1 {
+  background-color: #747474;
 }
 
-.curated-posts .curated-post-2{
- background-color: #FFD6DC; 
+.curated-posts .curated-post-2 {
+  background-color: #8d8d8d;
 }
 
-.curated-posts .curated-post-3{
-  background-color: #F5C1C7; 
+.curated-posts .curated-post-3 {
+  background-color: #a8a8a8;
 }
 
-.curated-posts .curated-post-4{
-  background-color: #E8A0AB; 
+.curated-posts .curated-post-4 {
+  background-color: #bdbdbd;
 }
 
-.curated-posts .curated-post-5{
-  background-color: #E8707B; 
+.curated-posts .curated-post-5 {
+  background-color: #818181;
   grid-column: span 2;
 }
 
 .footer {
   height: 97vh;
-  background-color: #BF6F94;
+  background-color: #5c5c5c;
 }
-
