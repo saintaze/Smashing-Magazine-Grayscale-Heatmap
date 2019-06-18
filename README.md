@@ -12,6 +12,10 @@ Following is the link for website for which grayscale heatmap was created
 
 URL: [Smashing Magazine](https://www.smashingmagazine.com/)
 
+# Top Level Colored Layout
+
+URL: [Colored Layout Preview](https://smashing-magazine-grayscale-heatmap.ayezahmed.now.sh/)
+
 
 # Authors
 + Saintaze [@saintaze](https://github.com/saintaze/)
