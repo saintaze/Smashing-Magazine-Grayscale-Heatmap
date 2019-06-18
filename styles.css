@@ -48,8 +48,8 @@ nav{
 
 
 .signup {
-  background-color: #D0DED4;
-  height: 86vh;
+  background-color: #F27979;
+  height: 74vh;
 }
 
 .latest-posts {
@@ -58,7 +58,7 @@ nav{
 }
 
 .latest-posts .latest-post{
-  height: 70vh;
+  height: 90vh;
 }
 
 .latest-posts .latest-post-1{
@@ -79,12 +79,12 @@ nav{
 }
 
 .signin .sponsor {
-  background-color: #49BF94;
-  height: 50rem;
+  background-color: #A0AD5F;
+  height: 93vh;
 }
 
 .signin .signin-form{
-  background-color: #4A8C7A;
+  background-color: #D9CE3D;
 }
 
 
@@ -95,7 +95,7 @@ nav{
 }
 
 .later-posts .later-post{
-  height: 70vh;
+  height: 94vh;
 }
 
 .later-posts .later-post-1{
@@ -133,7 +133,7 @@ nav{
 }
 
 .person-of-week {
-  height: 65vh;
+  height: 62vh;
   background-color: #BF7463; 
 }
 
@@ -168,23 +168,19 @@ nav{
 }
 
 .shared-links .link-6 {
-  background-color: #415474;
+  background-color: #3c5167;
 }
 
 .featured-book{
-  height: 50vh;
-  background-color:  sandybrown;
+  height: 70vh;
+  background-color:  #FFAC8A;
 }
 
 
 .curated-posts {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-}
-
-
-.curated-post {
-  height: 50vh;
+  grid-template-rows: 105vh 115vh
 }
 
 .curated-posts .curated-post-1{
@@ -209,7 +205,7 @@ nav{
 }
 
 .footer {
-  height: 95vh;
-  background-color: #91C4D9;
+  height: 97vh;
+  background-color: #BF6F94;
 }
 
