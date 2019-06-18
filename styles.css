@@ -17,7 +17,7 @@ body{
 }
 
 nav{
-  background-color: #1d8ff9;
+  background-color: #C7D1D9;
   height: 18rem;
 }
 
@@ -31,25 +31,25 @@ nav{
 }
 
 .latest-articles .article-1{
-  background-color: #FAF0CA;
+  background-color: #FF775F;
 }
 
 .latest-articles .article-2{
-  background-color: #F95738;
+  background-color: #FF9683;
 }
 
 .latest-articles .article-3{
-  background-color: #F6AE2D;
+  background-color: #FFB5A6;
 }
 
 .latest-articles .article-4{
-  background-color: #af4913;
+  background-color: #FFD0C7;
 }
 
 
 .signup {
-  background-color: #21ffce;
-  height: 70vh;
+  background-color: #D0DED4;
+  height: 86vh;
 }
 
 .latest-posts {
@@ -79,16 +79,12 @@ nav{
 }
 
 .signin .sponsor {
-  background-color: coral;
+  background-color: #49BF94;
   height: 50rem;
 }
 
-.signin .sponsor {
-  background-color: coral
-}
-
 .signin .signin-form{
-  background-color: greenyellow;
+  background-color: #4A8C7A;
 }
 
 
@@ -103,28 +99,117 @@ nav{
 }
 
 .later-posts .later-post-1{
-  background-color: #22b9ca;
+  background-color: #64284A;
 }
 
 .later-posts .later-post-2{
-  background-color: #4be3ac;
+  background-color: #AF3C5E;
 }
 
 .later-posts .later-post-3{
-  background-color: #B39C4D;
+  background-color: #FA5072;
 
 }
 
 .later-posts .later-post-4{
-  background-color: #f7ff56;
+  background-color: #FFC2AA;
 }
 
 .later-posts .later-post-5{
-  background-color: hotpink;
+  background-color: #190036;
   grid-column: 2 / -1;
 }
 
+
 .conference {
-  background-color: #CD5D67;
+  background-color: #BF9075;
   height: 120vh;
 }
+
+
+.community-links {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.person-of-week {
+  height: 65vh;
+  background-color: #BF7463; 
+}
+
+.shared-links {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+
+.shared-links .link {
+  height: 50vh;
+}
+
+.shared-links .link-1 {
+  background-color: #00D3E6;
+}
+
+.shared-links .link-2 {
+  background-color: #00B4CC;
+}
+
+.shared-links .link-3 {
+  background-color: #0096B3;
+}
+
+.shared-links .link-4 {
+  background-color: #007A99;
+}
+
+.shared-links .link-5 {
+  background-color: #005E7C;
+}
+
+.shared-links .link-6 {
+  background-color: #415474;
+}
+
+.featured-book{
+  height: 50vh;
+  background-color:  sandybrown;
+}
+
+
+.curated-posts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+
+.curated-post {
+  height: 50vh;
+}
+
+.curated-posts .curated-post-1{
+  background-color: #FFE2DF
+}
+
+.curated-posts .curated-post-2{
+ background-color: #FFD6DC; 
+}
+
+.curated-posts .curated-post-3{
+  background-color: #F5C1C7; 
+}
+
+.curated-posts .curated-post-4{
+  background-color: #E8A0AB; 
+}
+
+.curated-posts .curated-post-5{
+  background-color: #E8707B; 
+  grid-column: span 2;
+}
+
+.footer {
+  height: 95vh;
+  background-color: #91C4D9;
+}
+
