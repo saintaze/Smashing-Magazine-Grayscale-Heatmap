@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font-family: Arial;
+  font-family: 'Patua One', cursive;
   font-weight: bold;
   color: #eee;
   line-height: 1.6;
@@ -45,7 +45,7 @@ nav li a {
   grid-template-columns: repeat(2, 1fr);
   position: relative;
 }
-.latest-articles h1 {
+.latest-articles .center-head {
   width: 380px;
   text-align: center;
   background-color: gray;
@@ -53,9 +53,13 @@ nav li a {
   top: 5%;
   left: 36%;
 }
-
+.latest-articles .article h1 {
+  width: 535px;
+}
 .latest-articles .article {
+  display: grid;
   height: 110vh;
+  place-items: center;
 }
 
 .latest-articles .article-1 {
@@ -77,8 +81,37 @@ nav li a {
 .signup {
   background-color: #3f3f3f;
   height: 74vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 100;
 }
-
+.signup a{
+  text-decoration: none;
+  color: white;
+}
+.signup p {
+  padding: 50px 0px;
+  margin-left: 10%;
+  color: white;
+}
+.signup ul{
+  list-style: square;
+  margin-left: 15%;
+  color: white;
+}
+.signup .btn{
+  width: 300px;
+  height: 55px;
+  font-family: 'Patua One', cursive;
+  font-size: 24px;
+  background-color: rgb(19, 19, 19);
+  color: white;
+  padding: 10px;
+  margin: 70px 0 0 10%;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
 .latest-posts {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -86,12 +119,22 @@ nav li a {
 
 .latest-posts .latest-post {
   height: 90vh;
+  padding: 30px 40px 0px;
 }
 
 .latest-posts .latest-post-1 {
   background-color: #c4c4c4;
 }
-
+.latest-posts .latest-post  h1{
+  margin-bottom: 40px;
+  padding: 10px;
+  background: #3d3d3d;
+}
+.latest-posts .latest-post p {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  background: #3d3d3d;
+}
 .latest-posts .latest-post-2 {
   background-color: #cecece;
 }
@@ -103,6 +146,7 @@ nav li a {
 .signin {
   display: grid;
   grid-template-columns: 1fr 2fr;
+  
 }
 
 .signin .sponsor {
@@ -111,9 +155,44 @@ nav li a {
 }
 
 .signin .signin-form {
+  display: grid;
   background-color: #444444;
+  text-align: center;
+}
+.signin .signin-form  .img-box{
+  width: 250px;
+  height: 280px;
+  background-color: #747474;
+  margin: 10px auto 10px auto;
 }
 
+.signin .signin-form h1 a{
+  font-size: 44px;
+  text-decoration: none;
+  background-color: #6b6b6b;
+  padding: 10px;
+  color: white;
+}
+.signin .signin-form p{
+  width: 540px;
+  background-color: #6b6b6b;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  margin: 0 auto;
+}
+.signin .signin-form button{
+  width: 300px;
+  height: 55px;
+  font-family: 'Patua One', cursive;
+  font-size: 24px;
+  background-color: rgb(19, 19, 19);
+  color: white;
+  padding: 10px;
+  margin: 10px auto 0 auto;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
 .later-posts {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -121,8 +200,24 @@ nav li a {
 
 .later-posts .later-post {
   height: 94vh;
+  padding: 30px 40px 0px;
 }
-
+.later-posts .later-post h2{
+  margin-bottom: 30px;
+}
+.later-posts .later-post h2 a{
+  text-decoration: none;
+  background-color: #6b6b6b;
+  padding: 10px;
+  color: white;
+}
+.later-posts .later-post p{
+  background-color: #6b6b6b;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  padding: 10px;
+  color: white;
+}
 .later-posts .later-post-1 {
   background-color: #9c9c9c;
 }
@@ -142,11 +237,82 @@ nav li a {
 .later-posts .later-post-5 {
   background-color: #707070;
   grid-column: 2 / -1;
+  text-align: center;
+}
+.later-posts .later-post-5  .img-box{
+  width: 250px;
+  height: 250px;
+  background-color: #525252;
+  margin: 10px auto 10px auto;
 }
 
+.later-posts .later-post-5 h1 a{
+  font-size: 44px;
+  text-decoration: none;
+  background-color: #525252;
+  padding: 10px;
+  color: white;
+}
+.later-posts .later-post-5 p{
+  width: 540px;
+  background-color: #525252;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  margin: 5px auto;
+}
+.later-posts .later-post-5 button{
+  width: 330px;
+  height: 55px;
+  font-family: 'Patua One', cursive;
+  font-size: 24px;
+  background-color: rgb(19, 19, 19);
+  color: white;
+  padding: 10px;
+  margin: 10px auto 0 auto;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
 .conference {
   background-color: #3d3d3d;
-  height: 120vh;
+  height: 150vh;
+  text-align: center;
+}
+.conference h1{
+  display: inline-block;
+  font-size: 47px;
+  text-decoration: none;
+  background-color: #525252;
+  padding: 10px;
+  margin: 50px auto 20px auto;
+  color: white;
+}
+.conference p{
+  width: 540px;
+  background-color: #525252;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 100;
+  margin: 5px auto;
+}
+.conference button{
+  width: 430px;
+  height: 55px;
+  font-family: 'Patua One', cursive;
+  font-size: 24px;
+  background-color: rgb(19, 19, 19);
+  color: white;
+  padding: 10px;
+  margin: 10px auto 0 auto;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+.conference .img-box{
+  width: 900px;
+  height: 500px;
+  background-color: #525252;
+  margin: 30px auto 10px auto;
 }
 
 .community-links {
@@ -155,10 +321,30 @@ nav li a {
 }
 
 .person-of-week {
+  display: flex;
   height: 62vh;
   background-color: #808080;
+  justify-content: center;
+  align-items: center;
+}
+.person-of-week .avater-box{
+  width: 200px;
+  height: 200px;
+  background-color: #4b4b4b;
+  margin: 20px 70px 20px 20px;
+  transform: rotate(70deg)
+
 }
 
+.person-of-week p{
+  width: 780px;
+  margin: 25px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  line-height: 35px;
+  background: #3d3d3d;
+  padding: 10px;
+}
 .shared-links {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
