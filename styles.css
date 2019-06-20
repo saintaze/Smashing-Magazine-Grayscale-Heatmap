@@ -43,6 +43,7 @@ nav div a {
   position: relative;
 }
 .latest-articles .center-head {
+  font-size: 35px;
   width: 380px;
   text-align: center;
   background-color: gray;
@@ -53,6 +54,7 @@ nav div a {
 .latest-articles .article h1 {
   width: 535px;
   margin-bottom: 25px;
+  font-size: 35px;
 }
 .latest-articles .article {
   display: grid;
