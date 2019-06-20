@@ -43,7 +43,7 @@ nav div a {
   position: relative;
 }
 .latest-articles .center-head {
-  font-size: 35px;
+  font-size: 27px;
   width: 380px;
   text-align: center;
   background-color: gray;
@@ -111,7 +111,7 @@ nav div a {
 }
 .signup p {
   width: 600px;
-  padding: 50px 20px;
+  padding: 10px 20px;
   margin-left: 10%;
   background-color: #696969;
   color: white;
@@ -124,7 +124,7 @@ nav div a {
 }
 .signup ul li{
   background-color: #696969;
-  padding: 1rem 2rem;
+  padding: 5px 10px;
   margin: 10px;
 }
 .signup .btn{
