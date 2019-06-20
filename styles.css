@@ -51,7 +51,7 @@ nav div a {
   top: 5%;
   left: 36%;
 }
-.latest-articles .article h1 {
+.latest-articles .article h2{
   width: 535px;
   margin-bottom: 25px;
   font-size: 35px;
@@ -151,7 +151,7 @@ nav div a {
 .latest-posts .latest-post-1 {
   background-color: #c4c4c4;
 }
-.latest-posts .latest-post  h1{
+.latest-posts .latest-post  h2{
   margin-bottom: 40px;
   padding: 10px;
   background: #3d3d3d;
@@ -309,9 +309,12 @@ nav div a {
 .conference {
   background-color: #3d3d3d;
   height: 150vh;
+
+}
+.conference article{
   text-align: center;
 }
-.conference h1{
+.conference article h1{
   display: inline-block;
   font-size: 47px;
   text-decoration: none;
@@ -320,7 +323,7 @@ nav div a {
   margin: 50px auto 20px auto;
   color: white;
 }
-.conference p{
+.conference article p{
   width: 540px;
   background-color: #525252;
   font-family: Arial, Helvetica, sans-serif;
@@ -328,7 +331,7 @@ nav div a {
   font-weight: 100;
   margin: 5px auto;
 }
-.conference button{
+.conference article button{
   width: 430px;
   height: 55px;
   font-family: 'Patua One', cursive;
@@ -341,7 +344,7 @@ nav div a {
   border: none;
   outline: none;
 }
-.conference .img-box{
+.conference article .img-box{
   width: 900px;
   height: 500px;
   background-color: #525252;
@@ -354,13 +357,17 @@ nav div a {
 }
 
 .person-of-week {
-  display: flex;
   height: 62vh;
   background-color: #808080;
+
+}
+.person-of-week article{
+  display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10px;
 }
-.person-of-week .avater-box{
+.person-of-week article .avater-box{
   width: 200px;
   height: 200px;
   background-color: #4b4b4b;
@@ -369,7 +376,7 @@ nav div a {
 
 }
 
-.person-of-week p{
+.person-of-week article p{
   width: 780px;
   margin: 25px 0px;
   font-family: Arial, Helvetica, sans-serif;
@@ -548,7 +555,7 @@ nav div a {
   font-weight: 100;
 }
 .curated-posts .curated-post-5  button{
-  width: 160px;
+  width: 180px;
   height: 55px;
   font-family: 'Patua One', cursive;
   font-size: 24px;
