@@ -21,5 +21,5 @@ URL: [Colored Layout Preview](https://smashing-magazine-grayscale-heatmap.ayezah
 + Saintaze [@saintaze](https://github.com/saintaze/)
 + Imhtapm [@imhtapm](https://github.com/imhtapm)
 
-# Github Page
-Live Version: 
+# Preview Page
+Live Version: [Grey Heat Map with Visual hierarchy](https://smashing-magazine-grayscale-heatmap.imhta.now.sh)
