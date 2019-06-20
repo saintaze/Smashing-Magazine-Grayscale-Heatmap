@@ -30,7 +30,7 @@ nav div {
   height: 150px;
   background-color: grey;
   place-items: center;
-  padding: 10px;
+  padding: 1rem 2rem;
 }
 nav div a {
   font-size: 22px;
@@ -47,6 +47,7 @@ nav div a {
   width: 380px;
   text-align: center;
   background-color: gray;
+  padding: 1rem 2rem;
   position: absolute;
   top: 5%;
   left: 36%;
@@ -123,7 +124,7 @@ nav div a {
 }
 .signup ul li{
   background-color: #696969;
-  padding: 10px;
+  padding: 1rem 2rem;
   margin: 10px;
 }
 .signup .btn{
@@ -133,7 +134,7 @@ nav div a {
   font-size: 24px;
   background-color: rgb(19, 19, 19);
   color: white;
-  padding: 10px;
+  padding: 1rem 2rem;
   margin: 40px 0 0 10%;
   border-radius: 10px;
   border: none;
@@ -154,12 +155,12 @@ nav div a {
 }
 .latest-posts .latest-post  h2{
   margin-bottom: 40px;
-  padding: 10px;
+  padding: 1rem 2rem;
   background: #3d3d3d;
 }
 .latest-posts .latest-post p {
   font-family: Arial, Helvetica, sans-serif;
-  padding: 10px;
+  padding: 1rem 2rem;
   background: #3d3d3d;
 }
 .latest-posts .latest-post-2 {
@@ -204,7 +205,7 @@ nav div a {
   font-size: 44px;
   text-decoration: none;
   background-color: #6b6b6b;
-  padding: 10px;
+  padding: 1rem 2rem;
   color: white;
 }
 .signin .signin-form p{
@@ -221,7 +222,7 @@ nav div a {
   font-size: 24px;
   background-color: rgb(19, 19, 19);
   color: white;
-  padding: 10px;
+  padding: 1rem 2rem;
   margin: 10px auto 0 auto;
   border-radius: 10px;
   border: none;
@@ -242,14 +243,14 @@ nav div a {
 .later-posts .later-post h2 a{
   text-decoration: none;
   background-color: #6b6b6b;
-  padding: 10px;
+  padding: 1rem 2rem;
   color: white;
 }
 .later-posts .later-post p{
   background-color: #6b6b6b;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 100;
-  padding: 10px;
+  padding: 1rem 2rem;
   color: white;
 }
 .later-posts .later-post-1 {
@@ -284,7 +285,7 @@ nav div a {
   font-size: 44px;
   text-decoration: none;
   background-color: #525252;
-  padding: 10px;
+  padding: 1rem 2rem;
   color: white;
 }
 .later-posts .later-post-5 p{
@@ -301,7 +302,7 @@ nav div a {
   font-size: 24px;
   background-color: rgb(19, 19, 19);
   color: white;
-  padding: 10px;
+  padding: 1rem 2rem;
   margin: 10px auto 0 auto;
   border-radius: 10px;
   border: none;
@@ -320,7 +321,7 @@ nav div a {
   font-size: 47px;
   text-decoration: none;
   background-color: #525252;
-  padding: 10px;
+  padding: 1rem 2rem;
   margin: 50px auto 20px auto;
   color: white;
 }
@@ -339,7 +340,7 @@ nav div a {
   font-size: 24px;
   background-color: rgb(19, 19, 19);
   color: white;
-  padding: 10px;
+  padding: 1rem 2rem;
   margin: 10px auto 0 auto;
   border-radius: 10px;
   border: none;
@@ -366,7 +367,7 @@ nav div a {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  padding: 1rem 2rem;
 }
 .person-of-week article .avater-box{
   width: 200px;
@@ -384,7 +385,7 @@ nav div a {
   font-weight: 100;
   line-height: 35px;
   background: #3d3d3d;
-  padding: 10px;
+  padding: 1rem 2rem;
 }
 .shared-links {
   display: grid;
@@ -432,7 +433,7 @@ nav div a {
 }
 .shared-links .link h2{
   background-color: #3d3d3d;
-  padding: 10px;
+  padding: 1rem 2rem;
 }
 .shared-links .link p{
   width: 480px;
@@ -441,7 +442,7 @@ nav div a {
   font-weight: 100;
   line-height: 35px;
   background: #3d3d3d;
-  padding: 10px;
+  padding: 1rem 2rem;
 }
 .featured-book {
   height: 80vh;
@@ -459,14 +460,14 @@ nav div a {
 .featured-book h1{
   display: inline-block;
   background-color: #8a8a8a;
-  padding: 10px;
+  padding: 1rem 2rem;
   font-size: 40px;
 }
 .featured-book p{
   width: 735px;
   color: white;
   background-color: #8a8a8a;
-  padding: 10px;
+  padding: 1rem 2rem;
   margin: 10px 10px 10px 0px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 100;
@@ -478,7 +479,7 @@ nav div a {
   font-size: 24px;
   background-color: rgb(19, 19, 19);
   color: white;
-  padding: 10px;
+  padding: 1rem 2rem;
   margin: 10px auto 0 auto;
   border-radius: 10px;
   border: none;
@@ -495,7 +496,7 @@ nav div a {
 .curated-posts .cp h2{
   font-size: 28px;
   margin-bottom: 28px;
-  padding: 10px;
+  padding: 1rem 2rem;
   background-color: #707070;
 }
 .curated-posts .cp ul {
@@ -505,7 +506,7 @@ nav div a {
   font-size: 23px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 200;
-  padding: 10px;
+  padding: 1rem 2rem;
   margin: 5px;
   background-color: #707070;
 }
@@ -543,14 +544,14 @@ nav div a {
 .curated-posts .curated-post-5  h1{
   display: inline-block;
   background-color: #8a8a8a;
-  padding: 10px;
+  padding: 1rem 2rem;
   font-size: 40px;
 }
 .curated-posts .curated-post-5  p{
   width: 735px;
   color: white;
   background-color: #8a8a8a;
-  padding: 10px;
+  padding: 1rem 2rem;
   margin: 5px 0px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 100;
@@ -562,7 +563,7 @@ nav div a {
   font-size: 24px;
   background-color: rgb(19, 19, 19);
   color: white;
-  padding: 10px;
+  padding: 1rem 2rem;
   margin: 10px auto 0px auto;
   border-radius: 0px 10px 10px 0px;
   border: none;
@@ -591,7 +592,7 @@ nav div a {
   margin: 30px auto; 
   font-family: 'Times New Roman', Times, serif;
   font-weight: 600;
-  padding: 10px;
+  padding: 1rem 2rem;
   background-color: #8a8a8a;
 }
 .footer ul{
@@ -605,6 +606,6 @@ nav div a {
   font-size: 25px;
   font-weight: 400;
   margin: 18px;
-  padding: 10px;
+  padding: 1rem 2rem;
   background-color: #8a8a8a;
 }
