@@ -21,21 +21,18 @@ nav {
   background-color: #a0a0a0;
   height: 18rem;
   align-items: center;
-}
-nav ul {
-  display: flex;
-  width: 100%;
-  list-style: none;
   justify-content: space-evenly;
 }
-nav li {
+
+nav div {
   display: grid;
   width: 150px;
   height: 150px;
   background-color: grey;
   place-items: center;
+  padding: 10px;
 }
-nav li a {
+nav div a {
   font-size: 22px;
   text-decoration: none;
   color: #eee;
@@ -55,13 +52,25 @@ nav li a {
 }
 .latest-articles .article h1 {
   width: 535px;
+  margin-bottom: 25px;
 }
 .latest-articles .article {
   display: grid;
   height: 110vh;
-  place-items: center;
+  place-content: center;
 }
-
+.latest-articles .article .author{
+  width: 80px;
+  height: 80px;
+  background-color: #7c7c7c;
+  transform: rotate(170deg);
+  margin-bottom: 20px;
+}
+.latest-articles .article .tags{
+  width: 400px;
+  height: 25px;
+  background-color: #7c7c7c;
+}
 .latest-articles .article-1 {
   background-color: #5a5a5a;
 }
@@ -84,20 +93,35 @@ nav li a {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 100;
+  padding: 10px 60px 0px 0px;
+}
+.signup .img-box{
+  width: 300px;
+  height: 360px;
+  float: right;
+  background-color: #696969;
+  transform: rotate(170deg)
 }
 .signup a{
   text-decoration: none;
   color: white;
 }
 .signup p {
-  padding: 50px 0px;
+  width: 600px;
+  padding: 50px 20px;
   margin-left: 10%;
+  background-color: #696969;
   color: white;
 }
 .signup ul{
+  width: 600px;
   list-style: square;
   margin-left: 15%;
   color: white;
+}
+.signup ul li{
+  background-color: #696969;
+  margin: 10px;
 }
 .signup .btn{
   width: 300px;
@@ -107,7 +131,7 @@ nav li a {
   background-color: rgb(19, 19, 19);
   color: white;
   padding: 10px;
-  margin: 70px 0 0 10%;
+  margin: 40px 0 0 10%;
   border-radius: 10px;
   border: none;
   outline: none;
@@ -152,6 +176,13 @@ nav li a {
 .signin .sponsor {
   background-color: #a1a1a1;
   height: 93vh;
+}
+.signin .sponsor .ad-box{
+  width: 300px;
+  height: 188px;
+  border-radius: 10px;
+  margin: 50px auto;
+  background-color: #7c7c7c;
 }
 
 .signin .signin-form {
@@ -448,9 +479,28 @@ nav li a {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 125vh 145vh;
 }
-
+.curated-posts .cp{
+  padding: 30px;
+}
+.curated-posts .cp h2{
+  font-size: 28px;
+  margin-bottom: 28px;
+  padding: 10px;
+  background-color: #707070;
+}
+.curated-posts .cp ul {
+  margin-left: 10%;
+}
+.curated-posts .cp li{
+  font-size: 23px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  padding: 10px 0px;
+  margin: 5px;
+  background-color: #707070;
+}
 .curated-posts .curated-post-1 {
-  background-color: #747474;
+  background-color: #808080;
 }
 
 .curated-posts .curated-post-2 {
@@ -464,6 +514,8 @@ nav li a {
 .curated-posts .curated-post-4 {
   background-color: #bdbdbd;
 }
+
+
 
 .curated-posts .curated-post-5 {
   display: grid;
@@ -523,10 +575,13 @@ nav li a {
   text-align: center;
 }
 .footer h3{
+  display: inline-block;
+  max-width: 1000px;
   font-size: 18px;
-  margin: 30px 0px; 
+  margin: 30px auto; 
   font-family: 'Times New Roman', Times, serif;
   font-weight: 600;
+  background-color: #8a8a8a;
 }
 .footer ul{
   display: flex;
@@ -539,4 +594,5 @@ nav li a {
   font-size: 25px;
   font-weight: 400;
   margin: 18px;
+  background-color: #8a8a8a;
 }
