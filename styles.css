@@ -123,6 +123,7 @@ nav div a {
 }
 .signup ul li{
   background-color: #696969;
+  padding: 10px;
   margin: 10px;
 }
 .signup .btn{
@@ -504,7 +505,7 @@ nav div a {
   font-size: 23px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 200;
-  padding: 10px 0px;
+  padding: 10px;
   margin: 5px;
   background-color: #707070;
 }
