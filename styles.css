@@ -591,6 +591,7 @@ nav div a {
   margin: 30px auto; 
   font-family: 'Times New Roman', Times, serif;
   font-weight: 600;
+  padding: 10px;
   background-color: #8a8a8a;
 }
 .footer ul{
@@ -604,5 +605,6 @@ nav div a {
   font-size: 25px;
   font-weight: 400;
   margin: 18px;
+  padding: 10px;
   background-color: #8a8a8a;
 }
