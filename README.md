@@ -1,6 +1,6 @@
 # Smashing-Magazine-Grayscale-Heatmap
 
-This is the grayscale heatmap of smashing magazine landing page. It indicates which elements have the greatest weight in the visual hierarchy
+This is the grayscale heatmap of smashing magazine landing page. It indicates which elements have the greatest weight in the visual hierarchy.
 
 ##### Built With
 + HTML5
@@ -8,7 +8,7 @@ This is the grayscale heatmap of smashing magazine landing page. It indicates wh
 
 # Source Website URL 
 
-Following is the link for website for which grayscale heatmap was created
+Following is the link of website for which grayscale heatmap was created.
 
 URL: [Smashing Magazine](https://www.smashingmagazine.com/)
 
@@ -16,10 +16,11 @@ URL: [Smashing Magazine](https://www.smashingmagazine.com/)
 
 URL: [Colored Layout Preview](https://smashing-magazine-grayscale-heatmap.ayezahmed.now.sh/)
 
+# Project Live Version
+URL: [Grey Heat Map with Visual hierarchy](https://smashing-magazine-grayscale-heatmap.imhta.now.sh)
 
 # Authors
 + Saintaze [@saintaze](https://github.com/saintaze/)
 + Imhta [@imhta](https://github.com/imhta)
 
-# Preview Page
-Live Version: [Grey Heat Map with Visual hierarchy](https://smashing-magazine-grayscale-heatmap.imhta.now.sh)
+
